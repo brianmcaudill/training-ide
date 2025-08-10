@@ -2,13 +2,16 @@
   "name": "LOD4",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brianmcaudill.github.io/training-ide-skillable",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "npm run lint:scaffold",
     "lint:scaffold": "scaffold-validate",
-    "check:imports": "scaffold-check-imports"
+    "check:imports": "scaffold-check-imports",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -29,6 +32,7 @@
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "typescript": "^5.3.2",
