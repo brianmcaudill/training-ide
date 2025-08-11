@@ -225,7 +225,11 @@ export default function HomePage() {
   };
 
   useEffect(() => {
-    fetch('/panel-config.json')
+    // Use base URL that works in both dev and production
+    const baseUrl = window.location.pathname.includes('/training-ide/') 
+      ? '/training-ide/' 
+      : '/';
+    fetch(`${baseUrl}panel-config.json`)
       .then(res => res.json())
       .then(data => {
         setConfig(data);
