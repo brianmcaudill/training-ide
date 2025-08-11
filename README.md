@@ -9,7 +9,7 @@ A modern, flexible training IDE with dockable panels, similar to Skillable, buil
 
 ## 🚀 Live Demo
 
-[View Live Demo →](https://yourusername.github.io/LOD4-1754869169057)
+[View Live Demo →](https://brianmcaudill.github.io/training-ide)
 
 ## ✨ Features
 
@@ -48,8 +48,8 @@ A modern, flexible training IDE with dockable panels, similar to Skillable, buil
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/LOD4-1754869169057.git
-cd LOD4-1754869169057
+git clone https://github.com/brianmcaudill/training-ide.git
+cd training-ide
 ```
 
 2. Install dependencies:
@@ -164,7 +164,7 @@ npm install --save-dev gh-pages
 2. Add to package.json:
 ```json
 {
-  "homepage": "https://yourusername.github.io/LOD4-1754869169057",
+  "homepage": "https://brianmcaudill.github.io/training-ide",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

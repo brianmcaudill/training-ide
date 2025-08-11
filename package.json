@@ -2,7 +2,7 @@
   "name": "LOD4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brianmcaudill.github.io/training-ide-skillable",
+  "homepage": "https://brianmcaudill.github.io/training-ide",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

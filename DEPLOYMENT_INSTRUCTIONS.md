@@ -10,7 +10,7 @@ Since GitHub CLI authentication needs to be set up, please follow these manual s
 2. Click the **+** icon in the top right corner
 3. Select **New repository**
 4. Repository settings:
-   - **Repository name**: `training-ide-skillable`
+   - **Repository name**: `training-ide`
    - **Description**: "A modern training IDE with dockable panels, similar to Skillable"
    - **Public** repository (required for GitHub Pages)
    - **DO NOT** initialize with README (we already have one)
@@ -22,7 +22,7 @@ Run these commands in your terminal:
 
 ```bash
 # Add the remote repository
-git remote add origin https://github.com/YOUR_USERNAME/training-ide-skillable.git
+git remote add origin https://github.com/YOUR_USERNAME/training-ide.git
 
 # Push to GitHub
 git branch -M main
@@ -54,7 +54,7 @@ npm run deploy
 
 Your Training IDE will be available at:
 
-**https://YOUR_USERNAME.github.io/training-ide-skillable**
+**https://YOUR_USERNAME.github.io/training-ide**
 
 (Replace YOUR_USERNAME with your GitHub username)
 
@@ -102,7 +102,7 @@ npm run preview
 ## 📋 Repository Structure
 
 ```
-training-ide-skillable/
+training-ide/
 ├── .github/workflows/deploy.yml  # Automatic deployment
 ├── src/                          # Source code
 ├── public/panel-config.json      # Panel configuration
