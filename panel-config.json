@@ -1,0 +1,72 @@
+{
+  "layout": {
+    "direction": "row",
+    "first": {
+      "direction": "column",
+      "first": "instructions",
+      "second": "labs",
+      "splitPercentage": 40
+    },
+    "second": {
+      "direction": "column",
+      "first": "editor",
+      "second": "terminal",
+      "splitPercentage": 70
+    },
+    "splitPercentage": 30
+  },
+  "panels": {
+    "instructions": {
+      "id": "instructions",
+      "type": "markdown",
+      "title": "Instructions",
+      "content": "# Welcome to Training IDE\n\n## Getting Started\n\n1. Follow the lab instructions on the left\n2. Use the editor to write your code\n3. Run commands in the terminal below\n\nThis is a **dockable** interface - you can:\n- Drag panels to reorganize\n- Click and drag borders to resize\n- Double-click titles to maximize panels"
+    },
+    "labs": {
+      "id": "labs",
+      "type": "labs",
+      "title": "Lab Exercises",
+      "labs": [
+        {
+          "id": "lab1",
+          "title": "Lab 1: Introduction",
+          "description": "Get familiar with the IDE",
+          "status": "not-started"
+        },
+        {
+          "id": "lab2",
+          "title": "Lab 2: Basic Operations",
+          "description": "Learn basic operations",
+          "status": "not-started"
+        }
+      ]
+    },
+    "editor": {
+      "id": "editor",
+      "type": "editor",
+      "title": "Code Editor",
+      "defaultContent": "// Welcome to the Training IDE\n// Start writing your code here\n\nfunction hello() {\n  console.log('Hello, World!');\n}\n\nhello();"
+    },
+    "terminal": {
+      "id": "terminal",
+      "type": "terminal",
+      "title": "Terminal",
+      "initialOutput": "$ Welcome to the Training IDE Terminal\n$ Type your commands here...\n$ "
+    },
+    "presentation": {
+      "id": "presentation",
+      "type": "presentation",
+      "title": "Presentation",
+      "slides": [
+        {
+          "title": "Welcome",
+          "content": "Welcome to the Training IDE"
+        },
+        {
+          "title": "Features",
+          "content": "- Dockable panels\n- Multiple widget types\n- Customizable layout"
+        }
+      ]
+    }
+  }
+}
